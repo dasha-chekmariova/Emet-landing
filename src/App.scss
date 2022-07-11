@@ -11,6 +11,34 @@
 .header {
   background-color: #212121;
 
+  &__main-info {
+    margin-left: 128px;
+    max-width: 1175px;
+  }
+
+  &__title {
+    display: block;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+
+    color: #fff
+  }
+
+  &__subtitle {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: lowercase;
+
+    color: #6C6C6C;
+  }
+
   &__cartoon-sign {
     font-family: 'Betina';
     font-style: normal;
@@ -27,8 +55,18 @@
     }    
    
     &--second {
-      display: block;
+      display: flex;
+      justify-content: flex-end;
+      margin: 0 213px;
       color: #96C05B;
+    }
+
+    &--third {
+      display: flex;
+      justify-content: flex-end;
+
+      color: #E25241;
+      padding: 0 448px 193px 0;
     }
   }
 }
@@ -75,36 +113,6 @@
       display: none;
     }
   }
-
-  &__button {
-    box-sizing: border-box;
-
-    width: 171px;
-    height: 44px;
-    left: 1277px;
-    top: 12px;
-
-    border: 1px solid #77C8D0;
-    border-radius: 22px;
-
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 11px;
-    line-height: 13px;
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
-    background-color: #212121;
-
-    transition: 0.3s;
-
-    &:hover {
-      background-color: #77C8D0;
-      border-color: #77C8D0;
-    }
-  }
 }
 
 @media (min-width: 1200px) {
@@ -124,6 +132,15 @@
 }
 
 @media (max-width: 1200px) {
+  .header__subtitle {
+    font-size: 15px;
+  }
+  .header__title{
+    font-size: 25px;
+  }
+  .header__main-info {
+    margin-left: 20px;
+  }
   .header__cartoon-sign {
     display: none;
   }
@@ -136,11 +153,44 @@
     &__logo {
       width: 107px;
       height: 26px;
-      margin: 10px;
+      margin: 20px;
     }
   
     &__button {
-      margin: 10px;
+      margin: 20px;
     }
+  }
+}
+
+.button {
+  box-sizing: border-box;
+
+  width: 171px;
+  height: 44px;
+
+  border: 1px solid #77C8D0;
+  border-radius: 22px;
+
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+  background-color: #212121;
+
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #77C8D0;
+    border-color: #77C8D0;
+  }
+
+  &--width {
+    width: 223px;
+    margin-bottom: 107px;
   }
 }
