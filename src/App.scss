@@ -1,3 +1,146 @@
-.starter {
-  font-size: 18px;
+@font-face {
+  font-family: "Gilroy";
+  src: url(./font/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Betina";
+  src: url('./font/Mistral.ttf');
+}
+
+.header {
+  background-color: #212121;
+
+  &__cartoon-sign {
+    font-family: 'Betina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+
+    &--first {
+      display: inline-block;
+      margin: 111px 0 64px 341px;
+
+      color: #F19537;
+    }    
+   
+    &--second {
+      display: block;
+      color: #96C05B;
+    }
+  }
+}
+
+.nav {
+  height: 70px;
+
+  &__link {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: inline;
+
+    width: 360px;
+
+    color: #6C6C6C;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+  
+    line-height: 17px;
+
+    text-transform: lowercase;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+    
+    &:hover {
+      color: #5A31F5;
+    };
+
+    &--active {
+      color: #5A31F5;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    &__item {
+      display: none;
+    }
+  }
+
+  &__button {
+    box-sizing: border-box;
+
+    width: 171px;
+    height: 44px;
+    left: 1277px;
+    top: 12px;
+
+    border: 1px solid #77C8D0;
+    border-radius: 22px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background-color: #212121;
+
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #77C8D0;
+      border-color: #77C8D0;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 0px;
+      
+    &__logo { grid-area: 1 / 2 / 2 / 4; }
+    &__link { grid-area: 1 / 12 / 2 / 21; }
+    &__button { grid-area: 1 / 21 / 2 / 24; }
+  }
+  
+}
+
+@media (max-width: 1200px) {
+  .header__cartoon-sign {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    &__logo {
+      width: 107px;
+      height: 26px;
+      margin: 10px;
+    }
+  
+    &__button {
+      margin: 10px;
+    }
+  }
 }
