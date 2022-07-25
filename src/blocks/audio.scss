@@ -1,0 +1,38 @@
+.audio-example {
+  background-color: #212121;
+  &__subtitle {
+    padding: 100px 0 0 128px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #6C6C6C;
+  }
+
+  &__image {
+    margin: 0 0 100px 128px
+  }
+
+  &__title {
+    width: 1256px;
+    margin: 30px 0 30px 128px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+
+    &--highlights-1 {
+      color: #5A31F5;
+    }
+
+    &--highlights-2 {
+      color: #77C8D0;
+    }
+  }
+}

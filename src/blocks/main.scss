@@ -1,0 +1,12 @@
+.main {
+  &__title {
+    display: inline-block;
+    margin: 100px 0 0 64px;
+
+    &-img {
+      background-image: url('../img/Ellipse\ 3.svg');
+      background-position: center;
+    }
+  }
+}
+

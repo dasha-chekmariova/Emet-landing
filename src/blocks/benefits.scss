@@ -1,0 +1,83 @@
+.benefits {
+  background-color: #212121;
+  &__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+
+    padding: 100px 0 80px 64px;
+  }
+
+  &__card {
+    &-first {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      position: relative;
+      z-index: 1;
+
+      width: 235px;
+      height: 235px;
+      background-color: #77C8D0;
+      border-radius: 7px;
+
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      text-transform: uppercase;
+
+      padding: 0 32px;
+
+      color: #FFFFFF;
+      transition: 0.3s;
+
+      &:hover {
+        z-index: 0;
+      }
+    }
+
+    &-second {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      position: relative;
+
+      padding: 0 20px;
+      width: 235px;
+      height: 235px;
+      border-radius: 7px;
+      border: 1px solid;
+      border-color: rgb(119, 200, 208);
+      background: linear-gradient(135.57deg, #5A31F5 1.16%, #77C8D0 98.08%);
+      // background: linear-gradient(135.57deg, rgb(90, 49, 245) 1.16%, rgb(119, 200, 208) 98.08%);    
+      // background: linear-gradient(137.94deg, #5A31F5 2.31%, #77C8D0 97.69%),
+      // linear-gradient(135.57deg, rgba(90, 49, 245, 0.1) 1.16%, rgba(119, 200, 208, 0.1) 98.08%);
+      opacity: 1;
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 18px;
+      text-transform: lowercase;
+
+      color: #FFFFFF;
+
+      transform: translate(20px, -215px);
+
+      &:hover {
+        z-index: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.solvingProblem {
+  
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1325px;
+
+    margin: 80px 0 163px 96px;
+  
+  }
+  &__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #77C8D0;
+
+    border-bottom: 1px solid #fff;
+    padding: 22px 0 22px 41px;
+    margin: 0;
+
+    transition: 0.3s;
+    &:hover {
+      color: #5A31F5;
+    }
+  }
+  &__block {
+    margin-bottom: 21px;
+    max-width: 427px;
+    min-height: 246px;
+
+    background: linear-gradient(137.12deg, rgba(90, 49, 245, 0.05) -60.55%, rgba(119, 200, 208, 0.05) 98.08%);
+    border-radius: 7px;
+  }
+
+
+  &__info {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: lowercase;
+
+    color: #373737;
+
+    padding: 76px 0 0 41px;
+    margin: 0;
+  }
+}

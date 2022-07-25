@@ -1,0 +1,63 @@
+.header {
+  background-color: #212121;
+
+  &__main-info {
+    margin-left: 128px;
+    max-width: 1175px;
+  }
+
+  &__title {
+    display: block;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+
+    color: #fff
+  }
+
+  &__subtitle {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: lowercase;
+
+    color: #6C6C6C;
+  }
+
+  &__cartoon-sign {
+    font-family: 'Betina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+
+    &--first {
+      display: inline-block;
+      margin: 111px 0 64px 341px;
+
+      color: #F19537;
+    }    
+   
+    &--second {
+      display: flex;
+      justify-content: flex-end;
+      margin: 0 213px;
+      color: #96C05B;
+    }
+
+    &--third {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 107px;
+
+      color: #E25241;
+      padding: 0 448px 193px 0;
+    }
+  }
+}

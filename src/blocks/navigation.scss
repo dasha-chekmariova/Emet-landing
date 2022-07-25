@@ -1,0 +1,50 @@
+.nav {
+  height: 70px;
+
+  &__link {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: inline;
+
+    width: 360px;
+
+    color: #6C6C6C;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+  
+    line-height: 17px;
+
+    text-transform: lowercase;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+    
+    &:hover {
+      color: #5A31F5;
+    };
+
+    &--active {
+      color: #5A31F5;
+    }
+  }
+}
+
+  .nav {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 0px;
+      
+    &__logo { grid-area: 1 / 2 / 2 / 4; }
+    &__link { grid-area: 1 / 12 / 2 / 21; }
+    &__button { grid-area: 1 / 21 / 2 / 24; }
+  }
