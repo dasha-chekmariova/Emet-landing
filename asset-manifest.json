@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.b292dba4.chunk.css",
+    "main.js": "./static/js/main.05720184.chunk.js",
+    "main.js.map": "./static/js/main.05720184.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8c9895b1.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8c9895b1.js.map",
+    "static/js/2.b0d7d4da.chunk.js": "./static/js/2.b0d7d4da.chunk.js",
+    "static/js/2.b0d7d4da.chunk.js.map": "./static/js/2.b0d7d4da.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.b292dba4.chunk.css.map": "./static/css/main.b292dba4.chunk.css.map",
+    "static/js/2.b0d7d4da.chunk.js.LICENSE.txt": "./static/js/2.b0d7d4da.chunk.js.LICENSE.txt",
+    "static/media/Ellipse 1.10c7cd6d.svg": "./static/media/Ellipse 1.10c7cd6d.svg",
+    "static/media/main.scss": "./static/media/Ellipse 3.fba3b4a6.svg",
+    "static/media/App.scss": "./static/media/Mistral.bab29caa.ttf",
+    "static/media/Logo.6f660074.svg": "./static/media/Logo.6f660074.svg",
+    "static/media/check.39c27be7.svg": "./static/media/check.39c27be7.svg",
+    "static/media/emet-block.1ab81071.png": "./static/media/emet-block.1ab81071.png",
+    "static/media/headphones.ae1b807b.svg": "./static/media/headphones.ae1b807b.svg",
+    "static/media/list.b531391b.svg": "./static/media/list.b531391b.svg",
+    "static/media/loudspeaker.df48bbaf.svg": "./static/media/loudspeaker.df48bbaf.svg",
+    "static/media/pexel-Alex.677ff215.png": "./static/media/pexel-Alex.677ff215.png",
+    "static/media/phone.63a2062a.svg": "./static/media/phone.63a2062a.svg",
+    "static/media/robot.0b6be001.png": "./static/media/robot.0b6be001.png",
+    "static/media/smile.d466094a.svg": "./static/media/smile.d466094a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c9895b1.js",
+    "static/js/2.b0d7d4da.chunk.js",
+    "static/css/main.b292dba4.chunk.css",
+    "static/js/main.05720184.chunk.js"
+  ]
+}
