@@ -20,8 +20,6 @@
   
     line-height: 17px;
 
-    text-transform: lowercase;
-
     cursor: pointer;
 
     transition: 0.3s;
@@ -47,4 +45,18 @@
     &__logo { grid-area: 1 / 2 / 2 / 4; }
     &__link { grid-area: 1 / 12 / 2 / 21; }
     &__button { grid-area: 1 / 21 / 2 / 24; }
+  }
+
+  @media (max-width: 1500px) {
+    .nav__item {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+
+      text-align: center;
+
+      color: #6C6C6C;
+    }
   }

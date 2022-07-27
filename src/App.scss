@@ -8,6 +8,10 @@
   src: url('./font/Mistral.ttf');
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .button {
   box-sizing: border-box;
   cursor: pointer;

@@ -1,0 +1,58 @@
+.benefitsM {
+  font-family: 'Montserrat';
+
+  margin: 0 70px 100px 70px;
+
+  &__title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    margin-bottom: 45px;
+
+    color: #373737
+  }
+
+  &__card {
+    font-weight: 400;
+
+     &-title {
+      font-size: 24px;
+      line-height: 29px;
+      text-transform: uppercase;
+  
+      margin-bottom: 20px;
+  
+      color: #FFFFFF
+     }
+
+     &-subtitle {
+      font-size: 16px;
+      line-height: 20px;
+      text-transform: lowercase;
+
+      color: #FFFFFF;
+     }
+    
+  }
+}
+.benefitsM__block {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  background: linear-gradient(61.54deg, #77C8D0 -2.93%, #5A31F5 121.7%);
+  border-radius: 20px;
+
+  padding-top: 70px;
+  }
+  
+  .benefitsM__card--1 { grid-area: 1 / 2 / 2 / 6; }
+  .benefitsM__card--2 { grid-area: 2 / 2 / 3 / 6; }
+  .benefitsM__card--3 { grid-area: 3 / 2 / 4 / 6; }
+  .benefitsM__card--4 { grid-area: 4 / 2 / 5 / 6; }
+  .benefitsM__card--5 { grid-area: 1 / 7 / 2 / 11; }
+  .benefitsM__card--6 { grid-area: 2 / 7 / 3 / 11; }
+  .benefitsM__image-robot { grid-area: 3 / 5 / 7 / 13; }

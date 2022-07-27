@@ -1,0 +1,48 @@
+.solvingProblemM {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #212121;
+
+  padding: 88px 0 0 70px;
+
+  &__block {
+    height: 246px;
+    width: 420px;
+
+    margin: 0 27px 27px 0;
+
+    background: linear-gradient(137.12deg, #5A31F5 -60.55%, #77C8D0 98.08%);
+    border-radius: 7px;
+
+    color: #FFFFFF;
+  }
+
+  &__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    padding: 22px 0 22px 41px;
+    margin: 0;
+
+    border-bottom: 1px solid #FFFFFF;
+
+    color: #FFFFFF;
+  }
+
+  &__info {
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: lowercase;
+
+    margin: 76px 0 0 46px;
+
+    color: #FFFFFF
+  }
+}
