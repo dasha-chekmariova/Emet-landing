@@ -314,6 +314,11 @@ export const Finish: React.FC<{}> = () => {
                     </button>
                   </form>
                 </div>
+                <p>Роботу виконала Чекмарьова Дарина</p>
+                <p>Джерела:</p>
+                <a href="https://www.figma.com/file/2fXfTEbUKPnkBVsfgK28vk/Emet-landing?node-id=0%3A1">посилання на дизайн</a>
+                <br />
+                <a href="https://hi-in.facebook.com/Robotaz4Service/posts/5064789376952059/">інформація про робота</a>
               </main>
 
               <footer className="footer">
@@ -322,6 +327,7 @@ export const Finish: React.FC<{}> = () => {
                   src={logo}
                   alt="logo"
                 />
+
               </footer>
             </>
           )}
