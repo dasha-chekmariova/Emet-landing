@@ -1,9 +1,5 @@
-# React TypeScript Starter Pack
+EMET_landing
 
-To use this template click `Use this template`
+[DEMO LINK](https://dasha-chekmariova.github.io/Emet-landing/)
 
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+Use React & SCSS with BEM

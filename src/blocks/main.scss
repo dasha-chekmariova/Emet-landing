@@ -1,0 +1,20 @@
+.main {
+  &__title {
+    display: inline-block;
+
+    &-img {
+      background-image: url('../img/Ellipse\ 3.svg');
+      background-position: center;
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .main__title {
+    background: linear-gradient(61.54deg, #77C8D0 -2.93%, #5A31F5 121.7%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+

@@ -1,3 +1,45 @@
-.starter {
-  font-size: 18px;
+@font-face {
+  font-family: "Gilroy";
+  src: url(./font/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Betina";
+  src: url('./font/Mistral.ttf');
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.button {
+  box-sizing: border-box;
+  cursor: pointer;
+
+  width: 171px;
+  height: 44px;
+
+  border: 1px solid #77C8D0;
+  border-radius: 22px;
+
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+  background-color: #212121;
+
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #77C8D0;
+    border-color: #77C8D0;
+  }
+
+  &--width {
+    width: 223px;
+  }
 }

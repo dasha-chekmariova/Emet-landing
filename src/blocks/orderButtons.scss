@@ -1,0 +1,12 @@
+.orderButtons {
+  background-color: #212121;
+  height: 264px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--margin {
+    margin-right: 100px;
+  }
+}

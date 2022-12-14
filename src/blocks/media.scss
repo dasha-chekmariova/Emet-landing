@@ -1,0 +1,52 @@
+@media (max-width: 1200px) {
+  .header__subtitle {
+    font-size: 15px;
+  }
+
+  .header__title{
+    font-size: 25px;
+  }
+
+  .header__main-info {
+    margin-left: 20px;
+  }
+
+  .header__cartoon-sign {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    &__logo {
+      width: 107px;
+      height: 26px;
+      margin: 20px;
+    }
+  
+    &__button {
+      margin: 20px;
+    }
+  }
+  .button--width {
+    border-color: transparent;
+    background: linear-gradient(265.56deg, #77C8D0 3.71%, #552DEC 74.28%);
+    transition: 8s;
+
+    &:hover {
+      background: linear-gradient(265.56deg, #552DEC 3.71%, #77C8D0 74.28%);
+    }
+  }
+
+  .emet-info__title {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .emet-info__title {
+    font-size: 48px;
+  }
+}

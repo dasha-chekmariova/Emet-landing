@@ -1,0 +1,49 @@
+.audio-example {
+  background-color: #212121;
+
+  padding: 100px 128px;
+
+  &__subtitle {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #6C6C6C;
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+  }
+
+  &__title {
+    margin: 30px 0 30px 0;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+
+    &--highlights-1 {
+      color: #5A31F5;
+    }
+
+    &--highlights-2 {
+      color: #77C8D0;
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .audio-example {
+    padding: 52px 70px 112px 70px;
+  }
+
+  .audio-example__title--highlights-2 {
+    color: #5A31F5;
+  }
+}
